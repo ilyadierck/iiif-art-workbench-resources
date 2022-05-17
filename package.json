@@ -4,8 +4,8 @@
   "description": "A template for creating IIIF manifests/collections with biiif",
   "main": "index.js",
   "scripts": {
-    "build": "npx biiif collection",
-    "testbuild": "npx biiif collection -u https://example.com"
+    "build": "npx biiif resources",
+    "testbuild": "npx biiif resources -u https://example.com"
   },
   "repository": {
     "type": "git",
